@@ -10,7 +10,7 @@ def cb():
 
 
 a = Button(r, text="Cube", command=cb)
-t = Text(r)
+t = Text(r,height=2, width=20)
 l = Label(r)
 t.pack()
 a.pack()
