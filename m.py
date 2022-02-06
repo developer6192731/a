@@ -5,7 +5,7 @@ r = Tk()
 def cb():
   q = t.get(1.0, "end-1c")
   ans = int(q)**3
-  l.config(name=ans)
+  l.config(text=ans)
   
 
 
